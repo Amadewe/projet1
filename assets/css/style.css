@@ -1,19 +1,48 @@
-.card{
-border: white;
+/* finir les bords  */
+.container{
+padding-left: 0;
+padding-right: 0;
 }
+.border{
+padding-left: 0; /* permet d'enlever les padding à droite et à gauche pour eviter du blanc pour rien */
+padding-right: 0;
+
+}
+.cadre{
+border-left: 1px solid black; /* j'eesaie d'encadre toutes mes cards */
+}
+.card{
+border: white; /* permet d'enlever le gris du bootstrap */
+font-size: 13px;
+padding-left: 0; /*permet d'enlever les padding qui sert à rien */
+padding-right: 0;
+height: 25rem; /*permet d'agrandir mes colonnes */
+}
+.card-body {
+padding-left: 0; /*permet d'enlever les padding qui sert à rien */
+padding-right: 0;
+padding-top: 0;
+padding-bottom: 0;
+}
+
+/*
 .card-title {
 border: 1px solid red;
 }
-
+*/
 .enhaut{
-background: green;
+border-bottom: 1px solid silver; /* permet de mettre un trait en dessous de mes titres */
 }
 .descendretext {
-margin-top: 2rem;
+margin-top: 2rem; /* permet de descendre mon texte du titre */
+padding-left: 1rem;
+}
+.card-title{
 padding-left: 1rem;
 }
 .card-text{
-list-style: none;
+list-style: none; /*permet d'enlever les puces sur mes listes */
+color: #144a82;
 }
 /*.card-img-right{
 float: right;
