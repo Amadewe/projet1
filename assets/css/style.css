@@ -1,0 +1,21 @@
+.card{
+border: white;
+}
+.card-title {
+border: 1px solid red;
+}
+
+.enhaut{
+background: green;
+}
+.descendretext {
+margin-top: 2rem;
+padding-left: 1rem;
+}
+.card-text{
+list-style: none;
+}
+/*.card-img-right{
+float: right;
+}
+*/
