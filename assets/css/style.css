@@ -1,21 +1,76 @@
-/* finir les bords  */
+/* style navbar */
+.barreHaut{
+padding: 0;
+margin: 0;
+}
+.homme{
+height: 100px;
+}
+.tel{
+height: 10px;
+}
+.logo{
+width: 200px;
+}
+.menuright{
+padding-left: 280px;
+}
+.navbar-expand-lg{
+bottom: 47px;
+
+}
+.numero{
+font-size: 25px;
+color:blue;
+line-height:4px;
+}
+.numerosuite{
+font-size: 10px;
+line-height:5px;
+}
+.panier{
+height: 30px;
+}
+#navbarText{
+font-size: 12px;
+background-color: #144a82;
+height: 25px;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-text{
+color: white;
+border-right: 1px solid white;
+}
+
+.navbar navbar-expand-lg navbar-light{
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.navbar-textOscaro{
+background-color: silver;
+padding-right: 10px;
+padding-left: 40px;
+color: #144a82;
+padding-top: 4px;
+padding-bottom: 3px;
+}
+/* FIN NAVBAR */
+
+/* style produits  */
 .container{
 padding-left: 0;
 padding-right: 0;
 }
-.border{
-padding-left: 0; /* permet d'enlever les padding à droite et à gauche pour eviter du blanc pour rien */
-padding-right: 0;
+.bord{
+border: 1px solid silver;
+overflow: auto;
 
 }
-.cadre{
-border-left: 1px solid black; /* j'eesaie d'encadre toutes mes cards */
-}
+
 .card{
 border: white; /* permet d'enlever le gris du bootstrap */
 font-size: 13px;
-padding-left: 0; /*permet d'enlever les padding qui sert à rien */
-padding-right: 0;
+
 height: 25rem; /*permet d'agrandir mes colonnes */
 }
 .card-body {
@@ -30,7 +85,7 @@ padding-bottom: 0;
 border: 1px solid red;
 }
 */
-.enhaut{
+.top{
 border-bottom: 1px solid silver; /* permet de mettre un trait en dessous de mes titres */
 }
 .descendretext {
@@ -48,3 +103,13 @@ color: #144a82;
 float: right;
 }
 */
+.ligneBottom{
+float: right;
+}
+
+.btn{
+background-color: #144a82;
+color: white;
+font-size: 18px;
+}
+/* FIN STYLE PRODUITS */

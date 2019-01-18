@@ -3,56 +3,155 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>test Oscaro.com - Site officiel</title>
+  <title>test Navbar Oscaro</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </head>
-
 <body>
   <div class="container">
-    <!-- trouver la solution pour border et mettre l'onglet produits au dessus -->
-    <span class="border border-dark">
-      <!-- 1ERE LIGNE -->
+
+    <!-- NAVBAR -->
+    <!-- logo -->
+    <div class="barreHaut">
       <div class="row">
-        <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-          <div class="card-body">
-            <div class="enhaut">
-              <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702538.jpg" alt="Card image cap" />
-              <h5 class="card-title">Pièce moteur et Huile</h5>
+        <div class="logo col-12 col-sm-12 col-md-2">
+          <img class="logo" src="https://tesla.oscaro.com/5.3.0/img/common/logo.svg">
+        </div>
+        <div class="homme col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1">
+          <img class="homme" src="https://tesla.oscaro.com/5.3.0/img/common/components/crc/character.png">
+        </div>
+
+        <div class="tel col-12 col-sm-12 col-md-3">
+          <div class="tel">
+            <p class="numéro"><i class="far fa-phone"></i>0176494949</p>
+            <div class="numerosuite">
+              <p> N° non Surtaxé</p>
+              <p>180 experts en mécanique à votre écoute</p>
             </div>
-            <ul class="descendretext">
-              <li class="card-text">Huile moteur</li>
-              <li class="card-text">Pompe à eau + kit de courroie de distribution</li>
-              <li class="card-text">Bougie de préchauffage</li>
-              <li class="card-text">Injecteur</li>
-              <li class="card-text">Kit de distribution</li><br/>
-              <li class="card-text"><strong>Toute l'offre Pièces moteur et Huile</strong></li>
-            </ul>
           </div>
-        </div> <!-- card -->
-        <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-          <div class="card-body">
-            <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702578.jpg" alt="Card image cap">
-              <h5 class="card-title">Visibilité</h5></div>
-              <ul class="descendretext">
-                <li class="card-text">Balai d'essuie-glace</li>
-                <li class="card-text">Ampoule, projecteur principal</li>
-                <li class="card-text">Phare avant</li>
-                <li class="card-text">Rétroviseur extérieur</li>
-                <li class="card-text">Feu arrière</li><br/>
-                <li class="card-text"><strong>Toute l'offre Visibilité</strong></li>
-              </ul>
+        </div>
+        <div class="monCompte col-12 col-sm-12 col-md-2 offset-md-2">
+          <p class="monCompte">Votre compte</p>
+        </div>
+        <div class="panier col-12 col-sm-12 col-md-2">
+          <div class="panier">
+            <p><i class="fas fa-shopping-basket"></i>Panier<p>
+              <p>0 article(s)</p>
             </div>
-          </div> <!-- card -->
-          <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-            <div class="card-body">
-              <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702558.jpg" alt="Card image cap">
-                <h5 class="card-title">Direction / Suspension / Train</h5></div>
+          </div> <!-- panier-->
+
+        </div> <!--row-->
+
+
+        <!-- Navbar menu -->
+        <div class="menuright">
+          <nav class="navbar navbar-expand-lg navbar-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Découvrez mon atelier</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Faites un devis</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Team Oscaro</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Oscaro News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Oscaro News</a>
+                </li>
+              </ul>
+              <span class="navbar-textOscaro">
+                Oscaro s'engage
+              </span>
+            </div>
+          </nav>
+          <!-- Fin navbar menu -->
+
+        </div> <!-- menudroite -->
+      </div> <!-- barreHaut -->
+        <!-- FIN NAVBAR -->
+
+
+        <!-- PPRODUITS -->
+        <a href="#" class="btn btn-lg active" role="button" aria-pressed="true">Tous les produits</a>
+
+        <div class="bord">
+
+          <!-- 1ERE LIGNE -->
+          <div class="row"> <!-- row de ma ligne de 4" -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;"> <!-- col de ma ligne de 4 -->
+              <div class="card-body">
+
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Pièce moteur et Huile</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702538.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+
+
+                <ul class="descendretext">
+                  <li class="card-text">Huile moteur</li>
+                  <li class="card-text">Pompe à eau + kit de courroie de distribution</li>
+                  <li class="card-text">Bougie de préchauffage</li>
+                  <li class="card-text">Injecteur</li>
+                  <li class="card-text">Kit de distribution</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Pièces moteur et Huile</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Visibilité</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702578.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+
+
+                <ul class="descendretext">
+                  <li class="card-text">Balai d'essuie-glace</li>
+                  <li class="card-text">Ampoule, projecteur principal</li>
+                  <li class="card-text">Phare avant</li>
+                  <li class="card-text">Rétroviseur extérieur</li>
+                  <li class="card-text">Feu arrière</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Visibilité</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Direction / Suspension / Train</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702558.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+
+
                 <ul class="descendretext">
                   <li class="card-text">Jeu de 2 amortisseurs avant</li>
                   <li class="card-text">Triangle de suspension</li>
@@ -65,205 +164,365 @@
             </div> <!-- card -->
             <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
               <div class="card-body">
-                <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702551.jpg" alt="Card image cap">
-                  <h5 class="card-title">Freinage</h5></div>
-                  <ul class="descendretext">
-                    <li class="card-text">Jeu de 4 plaquettes de frein avant</li>
-                    <li class="card-text">Jeu de 2 disques de frein avant</li>
-                    <li class="card-text">Jeu de 4 plaquettes de frein arrière</li>
-                    <li class="card-text">Jeu de 2 disques de frein arrière</li>
-                    <li class="card-text">Kit de freins à tambours arrière</li><br/>
-                    <li class="card-text"><strong>Toute l'offre Freinage</strong></li>
-                  </ul>
-                </div>
-              </div> <!-- card -->
-            </div> <!-- row -->
-            <!-- FIN 1ERE LIGNE -->
 
-            <!-- 2 LIGNE -->
-            <div class="row">
-              <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                <div class="card-body">
-                  <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702615.jpg" alt="Card image cap">
-                    <h5 class="card-title">Filtration</h5></div>
-                    <ul class="descendretext">
-                      <li class="card-text">Filtre à huile</li>
-                      <li class="card-text">Filtre à carburant</li>
-                      <li class="card-text">Filtre à huile</li>
-                      <li class="card-text">Filtre d'habitable</li>
-                      <li class="card-text">Filtre hydraulique, direction</li><br/>
-                      <li class="card-text"><strong>Toute l'offre Filtration</strong></li>
-                    </ul>
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Freinage</h5>
                   </div>
-                </div> <!-- card -->
-                <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                  <div class="card-body">
-                    <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702600.jpg" alt="Card image cap">
-                      <h5 class="card-title">Démarrage et Charge</h5></div>
-                      <ul class="descendretext">
-                        <li class="card-text">Batterie</li>
-                        <li class="card-text">Alternateur</li>
-                        <li class="card-text">Démarreur</li>
-                        <li class="card-text">Poulie roue libre, alternateur</li>
-                        <li class="card-text">Régulateur d'alternateur</li><br/>
-                        <li class="card-text"><strong>Toute l'offre Démarrage et Charge</strong></li>
-                      </ul>
-                    </div>
-                  </div> <!-- card -->
-                  <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                    <div class="card-body">
-                      <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702611.jpg" alt="Card image cap">
-                        <h5 class="card-title">Embrayage et Boîte de vitesse</h5></div>
-                        <ul class="descendretext">
-                          <li class="card-text">Kit d'embrayage</li>
-                          <li class="card-text">Kit d'embrayage + Volant moteur</li>
-                          <li class="card-text">Volant moteur</li>
-                          <li class="card-text">Emetteur d'embrayage</li>
-                          <li class="card-text">Récepteur d'embrayage</li><br/>
-                          <li class="card-text"><strong>Toute l'offre Embrayage et Boîte de vitesse</strong></li>
-                        </ul>
-                      </div>
-                    </div> <!-- card -->
-                    <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                      <div class="card-body">
-                        <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702573.jpg" alt="Card image cap">
-                          <h5 class="card-title">Pièces Thermiques et Climatisation</h5></div>
-                          <ul class="descendretext">
-                            <li class="card-text">Thermostat d'eau</li>
-                            <li class="card-text">Radiateur moteur</li>
-                            <li class="card-text">Sonde de température, liquide de refroidissement</li>
-                            <li class="card-text">Durite de radiateur</li>
-                            <li class="card-text">Compresseur, climatisation</li><br/>
-                            <li class="card-text"><strong>Toute l'offre Pièces Thermiques et Climatisation</strong></li>
-                          </ul>
-                        </div>
-                      </div> <!-- card -->
-                    </div> <!-- row -->
-                    <!-- FIN 2 LIGNE -->
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702551.jpg" alt="Card image cap" />
+                  </div>
+                </div>
 
-                    <!-- 3 LIGNE -->
-                    <div class="row">
-                      <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                        <div class="card-body">
-                          <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702605.jpg" alt="Card image cap">
-                            <h5 class="card-title">Echappement</h5></div>
-                            <ul class="descendretext">
-                              <li class="card-text">Filtre à huile</li>
-                              <li class="card-text">Filtre à carburant</li>
-                              <li class="card-text">Filtre à huile</li>
-                              <li class="card-text">Filtre d'habitable</li>
-                              <li class="card-text">Filtre hydraulique, direction</li><br/>
-                              <li class="card-text"><strong>Toute l'offre Filtration</strong></li>
-                            </ul>
-                          </div>
-                        </div> <!-- card -->
-                        <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                          <div class="card-body">
-                            <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702666.jpg" alt="Card image cap">
-                              <h5 class="card-title">Accessoires et Equipements</h5></div>
-                              <ul class="descendretext">
-                                <li class="card-text">Batterie</li>
-                                <li class="card-text">Alternateur</li>
-                                <li class="card-text">Démarreur</li>
-                                <li class="card-text">Poulie roue libre, alternateur</li>
-                                <li class="card-text">Régulateur d'alternateur</li><br/>
-                                <li class="card-text"><strong>Toute l'offre Démarrage et Charge</strong></li>
-                              </ul>
-                            </div>
-                          </div> <!-- card -->
-                          <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                            <div class="card-body">
-                              <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702583.jpg" alt="Card image cap">
-                                <h5 class="card-title">Pièces Habitacle</h5></div>
-                                <ul class="descendretext">
-                                  <li class="card-text">Kit d'embrayage</li>
-                                  <li class="card-text">Kit d'embrayage + Volant moteur</li>
-                                  <li class="card-text">Volant moteur</li>
-                                  <li class="card-text">Emetteur d'embrayage</li>
-                                  <li class="card-text">Récepteur d'embrayage</li><br/>
-                                  <li class="card-text"><strong>Toute l'offre Embrayage et Boîte de vitesse</strong></li>
-                                </ul>
-                              </div>
-                            </div> <!-- card -->
-                            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                              <div class="card-body">
-                                <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702627.jpg" alt="Card image cap">
-                                  <h5 class="card-title">Outillage</h5></div>
-                                  <ul class="descendretext">
-                                    <li class="card-text">Thermostat d'eau</li>
-                                    <li class="card-text">Radiateur moteur</li>
-                                    <li class="card-text">Sonde de température, liquide de refroidissement</li>
-                                    <li class="card-text">Durite de radiateur</li>
-                                    <li class="card-text">Compresseur, climatisation</li><br/>
-                                    <li class="card-text"><strong>Toute l'offre Pièces Thermiques et Climatisation</strong></li>
-                                  </ul>
-                                </div>
-                              </div> <!-- card -->
-                            </div> <!-- row -->
-                            <!-- FIN 3 LIGNE -->
+                <ul class="descendretext">
+                  <li class="card-text">Jeu de 4 plaquettes de frein avant</li>
+                  <li class="card-text">Jeu de 2 disques de frein avant</li>
+                  <li class="card-text">Jeu de 4 plaquettes de frein arrière</li>
+                  <li class="card-text">Jeu de 2 disques de frein arrière</li>
+                  <li class="card-text">Kit de freins à tambours arrière</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Freinage</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+          </div> <!-- row -->
+          <!-- FIN 1ERE LIGNE -->
 
-                            <!-- 4 LIGNE -->
-                            <div class="row">
-                              <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                                <div class="card-body">
-                                  <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702667.jpg" alt="Card image cap">
-                                    <h5 class="card-title">Entretien et Nettoyage</h5></div>
-                                    <ul class="descendretext">
-                                      <li class="card-text">Filtre à huile</li>
-                                      <li class="card-text">Filtre à carburant</li>
-                                      <li class="card-text">Filtre à huile</li>
-                                      <li class="card-text">Filtre d'habitable</li>
-                                      <li class="card-text">Filtre hydraulique, direction</li><br/>
-                                      <li class="card-text"><strong>Toute l'offre Filtration</strong></li>
-                                    </ul>
-                                  </div>
-                                </div> <!-- card -->
-                                <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                                  <div class="card-body">
-                                    <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702700.jpg" alt="Card image cap">
-                                      <h5 class="card-title">Pneus et Equipements Roue</h5></div>
-                                      <ul class="descendretext">
-                                        <li class="card-text">Batterie</li>
-                                        <li class="card-text">Alternateur</li>
-                                        <li class="card-text">Démarreur</li>
-                                        <li class="card-text">Poulie roue libre, alternateur</li>
-                                        <li class="card-text">Régulateur d'alternateur</li><br/>
-                                        <li class="card-text"><strong>Toute l'offre Démarrage et Charge</strong></li>
-                                      </ul>
-                                    </div>
-                                  </div> <!-- card -->
-                                  <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+          <!-- 2 LIGNE -->
+          <div class="row">
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
 
-                                    <div class="card-body">
-                                      <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702675.jpg" alt="Card image cap">
-                                        <h5 class="card-title">Attelage et Portage</h5></div>
-                                        <ul class="descendretext">
-                                          <li class="card-text">Kit d'embrayage</li>
-                                          <li class="card-text">Kit d'embrayage + Volant moteur</li>
-                                          <li class="card-text">Volant moteur</li>
-                                          <li class="card-text">Emetteur d'embrayage</li>
-                                          <li class="card-text">Récepteur d'embrayage</li><br/>
-                                          <li class="card-text"><strong>Toute l'offre Embrayage et Boîte de vitesse</strong></li>
-                                        </ul>
-                                      </div>
-                                    </div> <!-- card -->
-                                    <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
-                                      <div class="card-body">
-                                        <div class="enhaut"><img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702692.jpg" alt="Card image cap">
-                                          <h5 class="card-title">Jeux éducatifs</h5></div>
-                                          <ul class="descendretext">
-                                            <li class="card-text">Thermostat d'eau</li>
-                                            <li class="card-text">Radiateur moteur</li>
-                                            <li class="card-text">Sonde de température, liquide de refroidissement</li>
-                                            <li class="card-text">Durite de radiateur</li>
-                                            <li class="card-text">Compresseur, climatisation</li><br/>
-                                            <li class="card-text"><strong>Toute l'offre Pièces Thermiques et Climatisation</strong></li>
-                                          </ul>
-                                        </div>
-                                      </div> <!-- card -->
-                                    </div> <!-- row -->
-                                    <!-- FIN 4 LIGNE -->
-                                  </span>
-                                </div> <!-- container-->
-                              </body>
-                              </html>
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Filtration</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702615.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+
+
+                <ul class="descendretext">
+                  <li class="card-text">Filtre à huile</li>
+                  <li class="card-text">Filtre à carburant</li>
+                  <li class="card-text">Filtre à huile</li>
+                  <li class="card-text">Filtre d'habitable</li>
+                  <li class="card-text">Filtre hydraulique, direction</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Filtration</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Démarrage et Charge</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702600.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Batterie</li>
+                  <li class="card-text">Alternateur</li>
+                  <li class="card-text">Démarreur</li>
+                  <li class="card-text">Poulie roue libre, alternateur</li>
+                  <li class="card-text">Régulateur d'alternateur</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Démarrage et Charge</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Embrayage et Boîte de vitesse</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702611.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Kit d'embrayage</li>
+                  <li class="card-text">Kit d'embrayage + Volant moteur</li>
+                  <li class="card-text">Volant moteur</li>
+                  <li class="card-text">Emetteur d'embrayage</li>
+                  <li class="card-text">Récepteur d'embrayage</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Embrayage et Boîte de vitesse</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Pièces Thermiques et Climatisation</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702573.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Thermostat d'eau</li>
+                  <li class="card-text">Radiateur moteur</li>
+                  <li class="card-text">Sonde de température, liquide de refroidissement</li>
+                  <li class="card-text">Durite de radiateur</li>
+                  <li class="card-text">Compresseur, climatisation</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Pièces Thermiques et Climatisation</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+          </div> <!-- row -->
+          <!-- FIN 2 LIGNE -->
+
+          <!-- 3 LIGNE -->
+          <div class="row">
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Echappement</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702605.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Filtre à huile</li>
+                  <li class="card-text">Filtre à carburant</li>
+                  <li class="card-text">Filtre à huile</li>
+                  <li class="card-text">Filtre d'habitable</li>
+                  <li class="card-text">Filtre hydraulique, direction</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Filtration</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Accessoires et Equipements</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702666.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Batterie</li>
+                  <li class="card-text">Alternateur</li>
+                  <li class="card-text">Démarreur</li>
+                  <li class="card-text">Poulie roue libre, alternateur</li>
+                  <li class="card-text">Régulateur d'alternateur</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Démarrage et Charge</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Pièces Habitacle</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702583.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Kit d'embrayage</li>
+                  <li class="card-text">Kit d'embrayage + Volant moteur</li>
+                  <li class="card-text">Volant moteur</li>
+                  <li class="card-text">Emetteur d'embrayage</li>
+                  <li class="card-text">Récepteur d'embrayage</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Embrayage et Boîte de vitesse</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Outillage</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702627.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Thermostat d'eau</li>
+                  <li class="card-text">Radiateur moteur</li>
+                  <li class="card-text">Sonde de température, liquide de refroidissement</li>
+                  <li class="card-text">Durite de radiateur</li>
+                  <li class="card-text">Compresseur, climatisation</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Pièces Thermiques et Climatisation</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+          </div> <!-- row -->
+          <!-- FIN 3 LIGNE -->
+
+
+
+          <!-- 4 LIGNE -->
+          <div class="row">
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Entretien et Nettoyage</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702667.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Filtre à huile</li>
+                  <li class="card-text">Filtre à carburant</li>
+                  <li class="card-text">Filtre à huile</li>
+                  <li class="card-text">Filtre d'habitable</li>
+                  <li class="card-text">Filtre hydraulique, direction</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Filtration</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Pneus et Equipements Roue</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702700.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Batterie</li>
+                  <li class="card-text">Alternateur</li>
+                  <li class="card-text">Démarreur</li>
+                  <li class="card-text">Poulie roue libre, alternateur</li>
+                  <li class="card-text">Régulateur d'alternateur</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Démarrage et Charge</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Attelage et Portage</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702675.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Kit d'embrayage</li>
+                  <li class="card-text">Kit d'embrayage + Volant moteur</li>
+                  <li class="card-text">Volant moteur</li>
+                  <li class="card-text">Emetteur d'embrayage</li>
+                  <li class="card-text">Récepteur d'embrayage</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Embrayage et Boîte de vitesse</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <div class="row top">
+                  <div class="col-7 col-sm-7 col-md-7 col-md-7 col-lg-7 col-xl-7">
+                    <h5 class="card-title">Jeux éducatifs</h5>
+                  </div>
+                  <div class="col-5 col-sm-5 col-md-5 col-md-5 col-lg-5 col-xl-5">
+                    <img class="card-img-right" src="https://tesla.oscaro.com/5.2.43-fix-facet-tracking/img/listnav/702692.jpg" alt="Card image cap" />
+                  </div>
+                </div>
+                <ul class="descendretext">
+                  <li class="card-text">Thermostat d'eau</li>
+                  <li class="card-text">Radiateur moteur</li>
+                  <li class="card-text">Sonde de température, liquide de refroidissement</li>
+                  <li class="card-text">Durite de radiateur</li>
+                  <li class="card-text">Compresseur, climatisation</li><br/>
+                  <li class="card-text"><strong>Toute l'offre Pièces Thermiques et Climatisation</strong></li>
+                </ul>
+              </div>
+            </div> <!-- card -->
+          </div>
+
+          <!-- FIN 4 LIGNE -->
+
+
+          <!-- 5 LIGNE -->
+          <div class="row top">
+            <div class="col-12 col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
+              <h5 class="card-title">Constructeurs les plus recherchés</h5>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+                <ul class="descendretext">
+                  <li class="card-text">RENAULT</li>
+                  <li class="card-text">PEUGEOT</li>
+                  <li class="card-text">CITROEN</li>
+                  <li class="card-text">VOLKSWAGEN</li>
+                  <li class="card-text">BMW</li><br/>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+
+                <ul class="descendretext">
+                  <li class="card-text">RENAULT</li>
+                  <li class="card-text">PEUGEOT</li>
+                  <li class="card-text">CITROEN</li>
+                  <li class="card-text">VOLKSWAGEN</li>
+                  <li class="card-text">BMW</li><br/>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+
+              <div class="card-body">
+
+
+                <ul class="descendretext">
+                  <li class="card-text">RENAULT</li>
+                  <li class="card-text">PEUGEOT</li>
+                  <li class="card-text">CITROEN</li>
+                  <li class="card-text">VOLKSWAGEN</li>
+                  <li class="card-text">BMW</li><br/>
+                </ul>
+              </div>
+            </div> <!-- card -->
+            <div class="card col-12 col-sm-6 col-lg-4 col-xl-3" style="width: 18rem;">
+              <div class="card-body">
+
+                <ul class="descendretext">
+                  <li class="card-text">RENAULT</li>
+                  <li class="card-text">PEUGEOT</li>
+                  <li class="card-text">CITROEN</li>
+                  <li class="card-text">VOLKSWAGEN</li>
+                  <li class="card-text">BMW</li><br/>
+                </ul>
+              </div>
+            </div> <!-- card -->
+          </div>
+
+          <!-- FIN 5 LIGNE -->
+          <!-- 6 LIGNE -->
+          <div class="ligneBottom">
+            <div class="row top">
+              <div class="carte-bottom col-12 col-sm-12 col-md-12 col-md-12 col-lg-12 col-xl-12">
+                <p>Tous les constructeurs <i class="fas fa-chevron-right"></i></p>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- bord -->
+
+
+
+    </div> <!-- container -->
+  </body>
+  </html>
